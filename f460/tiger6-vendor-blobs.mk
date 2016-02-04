@@ -7,6 +7,7 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/bin/smpl_count:system/bin/smpl_count \
     $(FILES_PATH)/bin/wififtmd:system/bin/wififtmd \
     $(FILES_PATH)/bin/qseecomd:system/bin/qseecomd \
+    $(FILES_PATH)/bin/efsks:system/bin/efsks \
     $(FILES_PATH)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     $(FILES_PATH)/lib/drm/libdrmwvmplugin.so:system/lib/libdrmwvmplugin.so \
     $(FILES_PATH)/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
