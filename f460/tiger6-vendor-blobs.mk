@@ -4,12 +4,44 @@ PRODUCT_PACKAGES += \
     libtime_genoff 
 
 PRODUCT_COPY_FILES += \
+    $(FILES_PATH)/priv-app/qcrilmsgtunnel.apk:system/priv-app/qcrilmsgtunnel.apk \
+    $(FILES_PATH)/bin/cpfirmware:system/bin/cpfirmware \
+    $(FILES_PATH)/bin/efsks:system/bin/efsks \
+    $(FILES_PATH)/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    $(FILES_PATH)/bin/ks:system/bin/ks \
+    $(FILES_PATH)/bin/mdm_helper:system/bin/mdm_helper \
+    $(FILES_PATH)/bin/mdm_helper_proxy:system/bin/mdm_helper_proxy \
+    $(FILES_PATH)/bin/netmgrd:system/bin/netmgrd \
+    $(FILES_PATH)/bin/qcks:system/bin/qcks \
+    $(FILES_PATH)/bin/qmuxd:system/bin/qmuxd \
+    $(FILES_PATH)/bin/qseecomd:system/bin/qseecomd \
+    $(FILES_PATH)/bin/radish:system/bin/radish \
     $(FILES_PATH)/bin/smpl_count:system/bin/smpl_count \
     $(FILES_PATH)/bin/wififtmd:system/bin/wififtmd \
-    $(FILES_PATH)/bin/qseecomd:system/bin/qseecomd \
-    $(FILES_PATH)/bin/efsks:system/bin/efsks \
+    $(FILES_PATH)/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
+    $(FILES_PATH)/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    $(FILES_PATH)/lib/drm:system/lib/drm \
+    $(FILES_PATH)/lib/libbcmwl.so:system/lib/libbcmwl.so \
+    $(FILES_PATH)/lib/liblgerft.so:system/lib/liblgerft.so \
+    $(FILES_PATH)/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
     $(FILES_PATH)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    $(FILES_PATH)/lib/drm/libdrmwvmplugin.so:system/lib/libdrmwvmplugin.so \
+    $(FILES_PATH)/lib/libnetmgr.so:system/lib/libnetmgr.so \
+    $(FILES_PATH)/lib/libqti_performance.so:system/lib/libqti_performance.so \
+    $(FILES_PATH)/lib/librmnetctl.so:system/lib/librmnetctl.so \
+    $(FILES_PATH)/lib/libvss_bsp_qcci.so:system/lib/libvss_bsp_qcci.so \
+    $(FILES_PATH)/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
+    $(FILES_PATH)/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
+    $(FILES_PATH)/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
+    $(FILES_PATH)/lib/libvss_dmi_qcci.so:system/lib/libvss_dmi_qcci.so \
+    $(FILES_PATH)/lib/libvss_gnss_qcci.so:system/lib/libvss_gnss_qcci.so \
+    $(FILES_PATH)/lib/libvss_ims_qcci.so:system/lib/libvss_ims_qcci.so \
+    $(FILES_PATH)/lib/libvss_nv_core.so:system/lib/libvss_nv_core.so \
+    $(FILES_PATH)/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
+    $(FILES_PATH)/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
+    $(FILES_PATH)/lib/libvss_resim_core.so:system/lib/libvss_resim_core.so \
+    $(FILES_PATH)/lib/libvss_resim_idl.so:system/lib/libvss_resim_idl.so \
+    $(FILES_PATH)/lib/libvss_resim_iface.so:system/lib/libvss_resim_iface.so \
+    $(FILES_PATH)/lib/libxml2.so:system/lib/libxml2.so \
     $(FILES_PATH)/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
     $(FILES_PATH)/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
     $(FILES_PATH)/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
@@ -83,5 +115,7 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/etc/firmware/vpu.b11:system/etc/firmware/vpu.b11 \
     $(FILES_PATH)/etc/firmware/vpu.b12:system/etc/firmware/vpu.b12 \
     $(FILES_PATH)/etc/firmware/vpu.mbn:system/etc/firmware/vpu.mbn \
-    $(FILES_PATH)/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt
+    $(FILES_PATH)/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt \
+    $(FILES_PATH)/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+    $(FILES_PATH)/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml  
 
