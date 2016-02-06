@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/lib/libvss_resim_core.so:system/lib/libvss_resim_core.so \
     $(FILES_PATH)/lib/libvss_resim_idl.so:system/lib/libvss_resim_idl.so \
     $(FILES_PATH)/lib/libvss_resim_iface.so:system/lib/libvss_resim_iface.so \
-    $(FILES_PATH)/lib/libxml2.so:system/lib/libxml2.so \
     $(FILES_PATH)/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
     $(FILES_PATH)/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
     $(FILES_PATH)/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
