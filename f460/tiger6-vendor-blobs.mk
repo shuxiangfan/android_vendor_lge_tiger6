@@ -4,9 +4,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff 
 
 PRODUCT_COPY_FILES += \
-    $(FILES_PATH)/app/atfwd/atfwd.apk:system/app/atfwd/atfwd.apk \
-    $(FILES_PATH)/app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/app/atfwd/qcrilmsgtunnel.apk \
-    $(FILES_PATH)/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     $(FILES_PATH)/bin/cpfirmware:system/bin/cpfirmware \
     $(FILES_PATH)/bin/efsks:system/bin/efsks \
     $(FILES_PATH)/bin/imsdatadaemon:system/bin/imsdatadaemon \
@@ -23,10 +20,8 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/bin/qmuxd:system/bin/qmuxd \
     $(FILES_PATH)/bin/qseecomd:system/bin/qseecomd \
     $(FILES_PATH)/bin/radish:system/bin/radish \
-    $(FILES_PATH)/bin/rmnetcli:system/bin/rmnetcli \
-    $(FILES_PATH)/bin/smpl_count:system/bin/smpl_count \
     $(FILES_PATH)/bin/time_daemon:system/bin/time_daemon \
-    $(FILES_PATH)/bin/wififtmd:system/bin/wififtmd \
+    $(FILES_PATH)/bin/brcm-uim-sysfs:system/bin/brcm-uim-sysfs \
     $(FILES_PATH)/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     $(FILES_PATH)/lib/libbcmwl.so:system/lib/libbcmwl.so \
     $(FILES_PATH)/lib/libbluedroid_bdt.so:system/lib/libbluedroid_bdt.so \
@@ -40,7 +35,6 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     $(FILES_PATH)/lib/libnetmgr.so:system/lib/libnetmgr.so \
     $(FILES_PATH)/lib/libqti_performance.so:system/lib/libqti_performance.so \
-    $(FILES_PATH)/lib/librmnetctl.so:system/lib/librmnetctl.so \
     $(FILES_PATH)/lib/libril.so:system/lib/libril.so \
     $(FILES_PATH)/lib/libuicc.so:system/lib/libuicc.so \
     $(FILES_PATH)/lib/libunified_sysfs_pm.so:system/lib/libunified_sysfs_pm.so \
