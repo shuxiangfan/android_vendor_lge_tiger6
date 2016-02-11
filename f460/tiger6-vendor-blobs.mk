@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/bin/radish:system/bin/radish \
     $(FILES_PATH)/bin/time_daemon:system/bin/time_daemon \
     $(FILES_PATH)/bin/brcm-uim-sysfs:system/bin/brcm-uim-sysfs \
+    $(FILES_PATH)/bin/sensors.qcom:system/bin/sensors.qcom \
     $(FILES_PATH)/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     $(FILES_PATH)/lib/libbcmwl.so:system/lib/libbcmwl.so \
     $(FILES_PATH)/lib/libbluedroid_bdt.so:system/lib/libbluedroid_bdt.so \
