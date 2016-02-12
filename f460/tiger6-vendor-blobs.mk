@@ -134,4 +134,13 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     $(FILES_PATH)/etc/lgodm/gps.cfg:system/etc/lgodm/gps.cfg \
     $(FILES_PATH)/etc/lgodm/gps_sap_pdr.cfg:system/etc/lgodm/gps_sap_pdr.cfg \
+    $(FILES_PATH)/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
+    $(FILES_PATH)/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
+    $(FILES_PATH)/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
+    $(FILES_PATH)/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
+    $(FILES_PATH)/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
+    $(FILES_PATH)/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
+    $(FILES_PATH)/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    $(FILES_PATH)/etc/acdbdata/workspaceFile.qwsp:system/etc/acdbdata/workspaceFile.qwsp
+    
 
