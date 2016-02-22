@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/lib/hw/consumerir.apq8084.so:system/lib/hw/consumerir.apq8084.so \
     $(FILES_PATH)/lib/liballegro.so:system/lib/liballegro.so \
     $(FILES_PATH)/lib/libalmalib.so:system/lib/libalmalib.so \
-    $(FILES_PATH)/lib/libalsautils.so:system/lib/libalsautils.so \
     $(FILES_PATH)/lib/libbcmwl.so:system/lib/libbcmwl.so \
     $(FILES_PATH)/lib/libbluedroid_bdt.so:system/lib/libbluedroid_bdt.so \
     $(FILES_PATH)/lib/libcir_driver.so:system/lib/libcir_driver.so \
