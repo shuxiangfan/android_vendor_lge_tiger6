@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/lib/libbcmwl.so:system/lib/libbcmwl.so \
     $(FILES_PATH)/lib/libbluedroid_bdt.so:system/lib/libbluedroid_bdt.so \
     $(FILES_PATH)/lib/libcir_driver.so:system/lib/libcir_driver.so \
+    $(FILES_PATH)/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
     $(FILES_PATH)/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
     $(FILES_PATH)/lib/libHDR.so:system/lib/libHDR.so \
     $(FILES_PATH)/lib/libimsmedia.so:system/lib/libimsmedia.so \
