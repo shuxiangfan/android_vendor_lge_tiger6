@@ -24,7 +24,11 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/bin/qseecomd:system/bin/qseecomd \
     $(FILES_PATH)/bin/radish:system/bin/radish \
     $(FILES_PATH)/bin/sensors.qcom:system/bin/sensors.qcom \
+    $(FILES_PATH)/bin/xtwifi-client:system/bin/xtwifi-client \
+    $(FILES_PATH)/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     $(FILES_PATH)/bin/time_daemon:system/bin/time_daemon \
+    $(FILES_PATH)/bin/lowi-server:system/bin/lowi-server \
+    $(FILES_PATH)/bin/loc_launcher:system/bin/loc_launcher \
     $(FILES_PATH)/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     $(FILES_PATH)/lib/hw/camera.apq8084.so:system/lib/hw/camera.apq8084.so \
     $(FILES_PATH)/lib/hw/consumerir.apq8084.so:system/lib/hw/consumerir.apq8084.so \
@@ -74,6 +78,7 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/lib/libwvoemprov.so:system/lib/libwvoemprov.so \
     $(FILES_PATH)/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     $(FILES_PATH)/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    $(FILES_PATH)/framework/tcmclient.jar:system/framework/tcmclient.jar \
     $(FILES_PATH)/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     $(FILES_PATH)/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     $(FILES_PATH)/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -115,7 +120,10 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt \
     $(FILES_PATH)/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     $(FILES_PATH)/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml  \
+    $(FILES_PATH)/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml  \
     $(FILES_PATH)/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
+    $(FILES_PATH)/etc/lowi.conf:system/etc/lowi.conf \
+    $(FILES_PATH)/etc/xtwifi.conf:system/etc/xtwifi.conf \
     $(FILES_PATH)/etc/lgodm/gps.cfg:system/etc/lgodm/gps.cfg \
     $(FILES_PATH)/etc/lgodm/gps_sap_pdr.cfg:system/etc/lgodm/gps_sap_pdr.cfg \
     $(FILES_PATH)/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
