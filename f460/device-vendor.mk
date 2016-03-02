@@ -6,7 +6,6 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     TimeService \
     tcmclient \
-    com.qualcomm.location
 
 $(call inherit-product, vendor/lge/f460/tiger6-vendor-blobs.mk)
 
