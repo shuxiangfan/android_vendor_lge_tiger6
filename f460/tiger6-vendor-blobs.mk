@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
     $(FILES_PATH)/lib/liblgomxdecoder_musicam.so:system/lib/liblgomxdecoder_musicam.so \
     $(FILES_PATH)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    $(FILES_PATH)/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     $(FILES_PATH)/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     $(FILES_PATH)/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     $(FILES_PATH)/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \

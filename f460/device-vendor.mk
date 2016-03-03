@@ -4,8 +4,7 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     qcnvitems \
     qcrilhook \
-    TimeService \
-    tcmclient \
+    tcmclient
 
 $(call inherit-product, vendor/lge/f460/tiger6-vendor-blobs.mk)
 
