@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     $(FILES_PATH)/lib/hw/camera.apq8084.so:system/lib/hw/camera.apq8084.so \
     $(FILES_PATH)/lib/hw/consumerir.apq8084.so:system/lib/hw/consumerir.apq8084.so \
+    $(FILES_PATH)/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(FILES_PATH)/lib/liballegro.so:system/lib/liballegro.so \
     $(FILES_PATH)/lib/libalmalib.so:system/lib/libalmalib.so \
     $(FILES_PATH)/lib/libbcmwl.so:system/lib/libbcmwl.so \
@@ -48,8 +49,6 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/lib/liblgerft.so:system/lib/liblgerft.so \
     $(FILES_PATH)/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
     $(FILES_PATH)/lib/liblgomxdecoder_musicam.so:system/lib/liblgomxdecoder_musicam.so \
-    $(FILES_PATH)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    $(FILES_PATH)/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     $(FILES_PATH)/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     $(FILES_PATH)/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     $(FILES_PATH)/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
@@ -77,6 +76,11 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/lib/libvss_resim_idl.so:system/lib/libvss_resim_idl.so \
     $(FILES_PATH)/lib/libvss_resim_iface.so:system/lib/libvss_resim_iface.so \
     $(FILES_PATH)/lib/libwvoemprov.so:system/lib/libwvoemprov.so \
+    $(FILES_PATH)/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    $(FILES_PATH)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    $(FILES_PATH)/lib/libloc_core.so:system/lib/libloc_core.so \
+    $(FILES_PATH)/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    $(FILES_PATH)/lib/libloc_eng.so:system/lib/libloc_eng.so \
     $(FILES_PATH)/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     $(FILES_PATH)/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     $(FILES_PATH)/framework/tcmclient.jar:system/framework/tcmclient.jar \
