@@ -75,6 +75,8 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     $(FILES_PATH)/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     $(FILES_PATH)/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    $(FILES_PATH)/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    $(FILES_PATH)/lib/libloc_core.so:system/lib/libloc_core.so \
     $(FILES_PATH)/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     $(FILES_PATH)/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     $(FILES_PATH)/framework/tcmclient.jar:system/framework/tcmclient.jar \
