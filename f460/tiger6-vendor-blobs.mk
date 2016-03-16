@@ -24,15 +24,11 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/bin/qseecomd:system/bin/qseecomd \
     $(FILES_PATH)/bin/radish:system/bin/radish \
     $(FILES_PATH)/bin/sensors.qcom:system/bin/sensors.qcom \
-    $(FILES_PATH)/bin/xtwifi-client:system/bin/xtwifi-client \
-    $(FILES_PATH)/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     $(FILES_PATH)/bin/time_daemon:system/bin/time_daemon \
-    $(FILES_PATH)/bin/lowi-server:system/bin/lowi-server \
-    $(FILES_PATH)/bin/loc_launcher:system/bin/loc_launcher \
     $(FILES_PATH)/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     $(FILES_PATH)/lib/hw/camera.apq8084.so:system/lib/hw/camera.apq8084.so \
     $(FILES_PATH)/lib/hw/consumerir.apq8084.so:system/lib/hw/consumerir.apq8084.so \
-    $(FILES_PATH)/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    $(FILES_PATH)/lib/hw/gps.apq8084.so:system/lib/hw/gps.apq8084.so \
     $(FILES_PATH)/lib/liballegro.so:system/lib/liballegro.so \
     $(FILES_PATH)/lib/libalmalib.so:system/lib/libalmalib.so \
     $(FILES_PATH)/lib/libbcmwl.so:system/lib/libbcmwl.so \
@@ -76,11 +72,9 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/lib/libvss_resim_idl.so:system/lib/libvss_resim_idl.so \
     $(FILES_PATH)/lib/libvss_resim_iface.so:system/lib/libvss_resim_iface.so \
     $(FILES_PATH)/lib/libwvoemprov.so:system/lib/libwvoemprov.so \
-    $(FILES_PATH)/lib/libgps.utils.so:system/lib/libgps.utils.so \
     $(FILES_PATH)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    $(FILES_PATH)/lib/libloc_core.so:system/lib/libloc_core.so \
     $(FILES_PATH)/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    $(FILES_PATH)/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    $(FILES_PATH)/lib/libgps.utils.so:system/lib/libgps.utils.so \
     $(FILES_PATH)/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     $(FILES_PATH)/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     $(FILES_PATH)/framework/tcmclient.jar:system/framework/tcmclient.jar \
@@ -127,8 +121,6 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml  \
     $(FILES_PATH)/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml  \
     $(FILES_PATH)/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
-    $(FILES_PATH)/etc/lowi.conf:system/etc/lowi.conf \
-    $(FILES_PATH)/etc/xtwifi.conf:system/etc/xtwifi.conf \
     $(FILES_PATH)/etc/lgodm/gps.cfg:system/etc/lgodm/gps.cfg \
     $(FILES_PATH)/etc/lgodm/gps_sap_pdr.cfg:system/etc/lgodm/gps_sap_pdr.cfg \
     $(FILES_PATH)/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
@@ -300,11 +292,7 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
     $(FILES_PATH)/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     $(FILES_PATH)/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    $(FILES_PATH)/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
     $(FILES_PATH)/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    $(FILES_PATH)/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    $(FILES_PATH)/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
-    $(FILES_PATH)/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
     $(FILES_PATH)/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     $(FILES_PATH)/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     $(FILES_PATH)/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
@@ -456,7 +444,6 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     $(FILES_PATH)/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
     $(FILES_PATH)/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
-    $(FILES_PATH)/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     $(FILES_PATH)/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
     $(FILES_PATH)/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     $(FILES_PATH)/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
@@ -480,7 +467,6 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     $(FILES_PATH)/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     $(FILES_PATH)/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
-    $(FILES_PATH)/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     $(FILES_PATH)/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     $(FILES_PATH)/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     $(FILES_PATH)/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
