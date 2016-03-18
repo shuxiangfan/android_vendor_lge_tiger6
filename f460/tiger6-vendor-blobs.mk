@@ -6,6 +6,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(FILES_PATH)/bin/brcm-uim-sysfs:system/bin/brcm-uim-sysfs \
     $(FILES_PATH)/bin/cpfirmware:system/bin/cpfirmware \
+    $(FILES_PATH)/bin/adsprpcd:system/bin/adsprpcd \
     $(FILES_PATH)/bin/efsks:system/bin/efsks \
     $(FILES_PATH)/bin/imsdatadaemon:system/bin/imsdatadaemon \
     $(FILES_PATH)/bin/imsqmidaemon:system/bin/imsqmidaemon \
@@ -55,7 +56,6 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/lib/libqomx_core.so:system/lib/libqomx_core.so \
     $(FILES_PATH)/lib/libqti_performance.so:system/lib/libqti_performance.so \
     $(FILES_PATH)/lib/libril.so:system/lib/libril.so \
-    $(FILES_PATH)/lib/librmnetctl.so:system/lib/librmnetctl.so \
     $(FILES_PATH)/lib/libuicc.so:system/lib/libuicc.so \
     $(FILES_PATH)/lib/libunified_sysfs_pm.so:system/lib/libunified_sysfs_pm.so \
     $(FILES_PATH)/lib/libvss_bsp_qcci.so:system/lib/libvss_bsp_qcci.so \
