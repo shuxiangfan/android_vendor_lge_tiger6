@@ -4,10 +4,13 @@ PRODUCT_PACKAGES += \
     libtime_genoff 
 
 PRODUCT_COPY_FILES += \
+    $(FILES_PATH)/bin/adsprpcd:system/bin/adsprpcd \
+    $(FILES_PATH)/bin/atd:system/bin/atd \
     $(FILES_PATH)/bin/brcm-uim-sysfs:system/bin/brcm-uim-sysfs \
     $(FILES_PATH)/bin/cpfirmware:system/bin/cpfirmware \
-    $(FILES_PATH)/bin/adsprpcd:system/bin/adsprpcd \
+    $(FILES_PATH)/bin/dun-server:system/bin/dun-server \
     $(FILES_PATH)/bin/efsks:system/bin/efsks \
+    $(FILES_PATH)/bin/ftmdaemon:system/bin/ftmdaemon \
     $(FILES_PATH)/bin/imsdatadaemon:system/bin/imsdatadaemon \
     $(FILES_PATH)/bin/imsqmidaemon:system/bin/imsqmidaemon \
     $(FILES_PATH)/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
@@ -18,68 +21,44 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     $(FILES_PATH)/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     $(FILES_PATH)/bin/netmgrd:system/bin/netmgrd \
+    $(FILES_PATH)/bin/nl_listener:system/bin/nl_listener \
     $(FILES_PATH)/bin/port-bridge:system/bin/port-bridge \
     $(FILES_PATH)/bin/ptt_socket_app:system/bin/ptt_socket_app \
     $(FILES_PATH)/bin/qcks:system/bin/qcks \
     $(FILES_PATH)/bin/qmuxd:system/bin/qmuxd \
     $(FILES_PATH)/bin/qseecomd:system/bin/qseecomd \
     $(FILES_PATH)/bin/radish:system/bin/radish \
+    $(FILES_PATH)/bin/rmnetcli:system/bin/rmnetcli \
     $(FILES_PATH)/bin/sensors.qcom:system/bin/sensors.qcom \
+    $(FILES_PATH)/bin/smpl_count:system/bin/smpl_count \
     $(FILES_PATH)/bin/time_daemon:system/bin/time_daemon \
-    $(FILES_PATH)/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-    $(FILES_PATH)/lib/hw/camera.apq8084.so:system/lib/hw/camera.apq8084.so \
-    $(FILES_PATH)/lib/hw/consumerir.apq8084.so:system/lib/hw/consumerir.apq8084.so \
-    $(FILES_PATH)/lib/hw/gps.apq8084.so:system/lib/hw/gps.apq8084.so \
-    $(FILES_PATH)/lib/liballegro.so:system/lib/liballegro.so \
-    $(FILES_PATH)/lib/libalmalib.so:system/lib/libalmalib.so \
-    $(FILES_PATH)/lib/libbcmwl.so:system/lib/libbcmwl.so \
-    $(FILES_PATH)/lib/libbluedroid_bdt.so:system/lib/libbluedroid_bdt.so \
-    $(FILES_PATH)/lib/libcir_driver.so:system/lib/libcir_driver.so \
-    $(FILES_PATH)/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
-    $(FILES_PATH)/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
-    $(FILES_PATH)/lib/libHDR.so:system/lib/libHDR.so \
-    $(FILES_PATH)/lib/libimsmedia.so:system/lib/libimsmedia.so \
-    $(FILES_PATH)/lib/libimsmmpf.so:system/lib/libimsmmpf.so \
-    $(FILES_PATH)/lib/libims.so:system/lib/libims.so \
-    $(FILES_PATH)/lib/liblgcamera_jni.so:system/lib/liblgcamera_jni.so \
-    $(FILES_PATH)/lib/liblgehdcpek.so:system/lib/liblgehdcpek.so \
-    $(FILES_PATH)/lib/liblgerft.so:system/lib/liblgerft.so \
-    $(FILES_PATH)/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
-    $(FILES_PATH)/lib/liblgomxdecoder_musicam.so:system/lib/liblgomxdecoder_musicam.so \
-    $(FILES_PATH)/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    $(FILES_PATH)/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    $(FILES_PATH)/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    $(FILES_PATH)/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
-    $(FILES_PATH)/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
-    $(FILES_PATH)/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
-    $(FILES_PATH)/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    $(FILES_PATH)/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    $(FILES_PATH)/lib/libqti_performance.so:system/lib/libqti_performance.so \
-    $(FILES_PATH)/lib/libril.so:system/lib/libril.so \
-    $(FILES_PATH)/lib/libuicc.so:system/lib/libuicc.so \
-    $(FILES_PATH)/lib/libunified_sysfs_pm.so:system/lib/libunified_sysfs_pm.so \
-    $(FILES_PATH)/lib/libvss_bsp_qcci.so:system/lib/libvss_bsp_qcci.so \
-    $(FILES_PATH)/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
-    $(FILES_PATH)/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
-    $(FILES_PATH)/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
-    $(FILES_PATH)/lib/libvss_dmi_qcci.so:system/lib/libvss_dmi_qcci.so \
-    $(FILES_PATH)/lib/libvss_gnss_qcci.so:system/lib/libvss_gnss_qcci.so \
-    $(FILES_PATH)/lib/libvss_ims_qcci.so:system/lib/libvss_ims_qcci.so \
-    $(FILES_PATH)/lib/libvss_nv_core.so:system/lib/libvss_nv_core.so \
-    $(FILES_PATH)/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
-    $(FILES_PATH)/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
-    $(FILES_PATH)/lib/libvss_resim_core.so:system/lib/libvss_resim_core.so \
-    $(FILES_PATH)/lib/libvss_resim_idl.so:system/lib/libvss_resim_idl.so \
-    $(FILES_PATH)/lib/libvss_resim_iface.so:system/lib/libvss_resim_iface.so \
-    $(FILES_PATH)/lib/libwvoemprov.so:system/lib/libwvoemprov.so \
-    $(FILES_PATH)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    $(FILES_PATH)/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    $(FILES_PATH)/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    $(FILES_PATH)/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    $(FILES_PATH)/lib/libloc_core.so:system/lib/libloc_core.so \
-    $(FILES_PATH)/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
-    $(FILES_PATH)/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    $(FILES_PATH)/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    $(FILES_PATH)/bin/wififtmd:system/bin/wififtmd \
+    $(FILES_PATH)/etc/acdbdata:system/etc/acdbdata \
+    $(FILES_PATH)/etc/bluetooth:system/etc/bluetooth \
+    $(FILES_PATH)/etc/camera_config.xml:system/etc/camera_config.xml \
+    $(FILES_PATH)/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
+    $(FILES_PATH)/etc/firmware:system/etc/firmware \
+    $(FILES_PATH)/etc/lgodm:system/etc/lgodm \
+    $(FILES_PATH)/etc/permissions:system/etc/permissions \
+    $(FILES_PATH)/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
+    $(FILES_PATH)/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
+    $(FILES_PATH)/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
+    $(FILES_PATH)/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
+    $(FILES_PATH)/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
+    $(FILES_PATH)/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
+    $(FILES_PATH)/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    $(FILES_PATH)/etc/acdbdata/workspaceFile.qwsp:system/etc/acdbdata/workspaceFile.qwsp \
+    $(FILES_PATH)/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
+    $(FILES_PATH)/etc/bluetooth/avrcp_toggle_white_list.conf:system/etc/bluetooth/avrcp_toggle_white_list.conf \
+    $(FILES_PATH)/etc/bluetooth/block_avrcp_toggle_new.conf:system/etc/bluetooth/block_avrcp_toggle_new.conf \
+    $(FILES_PATH)/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
+    $(FILES_PATH)/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
+    $(FILES_PATH)/etc/bluetooth/bt_tts_list.conf:system/etc/bluetooth/bt_tts_list.conf \
+    $(FILES_PATH)/etc/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf \
+    $(FILES_PATH)/etc/bluetooth/carkit_cod_headsets.conf:system/etc/bluetooth/carkit_cod_headsets.conf \
+    $(FILES_PATH)/etc/bluetooth/connect_other_profile_timeout_list.conf:system/etc/bluetooth/connect_other_profile_timeout_list.conf \
+    $(FILES_PATH)/etc/bluetooth/feature_config.xml:system/etc/bluetooth/feature_config.xml \
+    $(FILES_PATH)/etc/bluetooth/iop_bt.db:system/etc/bluetooth/iop_bt.db \
     $(FILES_PATH)/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     $(FILES_PATH)/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     $(FILES_PATH)/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -119,24 +98,85 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/etc/firmware/vpu.b12:system/etc/firmware/vpu.b12 \
     $(FILES_PATH)/etc/firmware/vpu.mbn:system/etc/firmware/vpu.mbn \
     $(FILES_PATH)/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt \
-    $(FILES_PATH)/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    $(FILES_PATH)/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml  \
-    $(FILES_PATH)/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml  \
-    $(FILES_PATH)/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     $(FILES_PATH)/etc/lgodm/gps.cfg:system/etc/lgodm/gps.cfg \
     $(FILES_PATH)/etc/lgodm/gps_sap_pdr.cfg:system/etc/lgodm/gps_sap_pdr.cfg \
-    $(FILES_PATH)/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
-    $(FILES_PATH)/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
-    $(FILES_PATH)/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
-    $(FILES_PATH)/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
-    $(FILES_PATH)/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
-    $(FILES_PATH)/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
-    $(FILES_PATH)/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
-    $(FILES_PATH)/etc/acdbdata/workspaceFile.qwsp:system/etc/acdbdata/workspaceFile.qwsp \
+    $(FILES_PATH)/etc/permissions/android.hardware.consumerir.xml:system/etc/permissions/android.hardware.consumerir.xml \
+    $(FILES_PATH)/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    $(FILES_PATH)/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+    $(FILES_PATH)/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    $(FILES_PATH)/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
+    $(FILES_PATH)/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    $(FILES_PATH)/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    $(FILES_PATH)/lib/drm:system/lib/drm \
+    $(FILES_PATH)/lib/hw:system/lib/hw \
+    $(FILES_PATH)/lib/liballegro.so:system/lib/liballegro.so \
+    $(FILES_PATH)/lib/libalmalib.so:system/lib/libalmalib.so \
+    $(FILES_PATH)/lib/libatd_common.so:system/lib/libatd_common.so \
+    $(FILES_PATH)/lib/libatd_corelib.so:system/lib/libatd_corelib.so \
+    $(FILES_PATH)/lib/libatd_modeminterface.so:system/lib/libatd_modeminterface.so \
+    $(FILES_PATH)/lib/libbcmwl.so:system/lib/libbcmwl.so \
+    $(FILES_PATH)/lib/libbluedroid_bdt.so:system/lib/libbluedroid_bdt.so \
+    $(FILES_PATH)/lib/libcir_driver.so:system/lib/libcir_driver.so \
+    $(FILES_PATH)/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
+    $(FILES_PATH)/lib/libdiagd_client.so:system/lib/libdiagd_client.so \
+    $(FILES_PATH)/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
+    $(FILES_PATH)/lib/libfrst.so:system/lib/libfrst.so \
+    $(FILES_PATH)/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    $(FILES_PATH)/lib/libHDR.so:system/lib/libHDR.so \
+    $(FILES_PATH)/lib/libimsmedia.so:system/lib/libimsmedia.so \
+    $(FILES_PATH)/lib/libimsmmpf.so:system/lib/libimsmmpf.so \
+    $(FILES_PATH)/lib/libims.so:system/lib/libims.so \
+    $(FILES_PATH)/lib/liblgcamera_jni.so:system/lib/liblgcamera_jni.so \
+    $(FILES_PATH)/lib/liblgehdcpek.so:system/lib/liblgehdcpek.so \
+    $(FILES_PATH)/lib/liblgerft.so:system/lib/liblgerft.so \
+    $(FILES_PATH)/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
+    $(FILES_PATH)/lib/liblgomxdecoder_musicam.so:system/lib/liblgomxdecoder_musicam.so \
+    $(FILES_PATH)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    $(FILES_PATH)/lib/libloc_core.so:system/lib/libloc_core.so \
+    $(FILES_PATH)/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    $(FILES_PATH)/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    $(FILES_PATH)/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    $(FILES_PATH)/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    $(FILES_PATH)/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    $(FILES_PATH)/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
+    $(FILES_PATH)/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
+    $(FILES_PATH)/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
+    $(FILES_PATH)/lib/libnetmgr.so:system/lib/libnetmgr.so \
+    $(FILES_PATH)/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    $(FILES_PATH)/lib/libqti_performance.so:system/lib/libqti_performance.so \
+    $(FILES_PATH)/lib/libril.so:system/lib/libril.so \
+    $(FILES_PATH)/lib/libuicc.so:system/lib/libuicc.so \
+    $(FILES_PATH)/lib/libunified_sysfs_pm.so:system/lib/libunified_sysfs_pm.so \
+    $(FILES_PATH)/lib/libvss_bsp_qcci.so:system/lib/libvss_bsp_qcci.so \
+    $(FILES_PATH)/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
+    $(FILES_PATH)/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
+    $(FILES_PATH)/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
+    $(FILES_PATH)/lib/libvss_dmi_qcci.so:system/lib/libvss_dmi_qcci.so \
+    $(FILES_PATH)/lib/libvss_gnss_qcci.so:system/lib/libvss_gnss_qcci.so \
+    $(FILES_PATH)/lib/libvss_ims_qcci.so:system/lib/libvss_ims_qcci.so \
+    $(FILES_PATH)/lib/libvss_nv_core.so:system/lib/libvss_nv_core.so \
+    $(FILES_PATH)/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
+    $(FILES_PATH)/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
+    $(FILES_PATH)/lib/libvss_resim_core.so:system/lib/libvss_resim_core.so \
+    $(FILES_PATH)/lib/libvss_resim_idl.so:system/lib/libvss_resim_idl.so \
+    $(FILES_PATH)/lib/libvss_resim_iface.so:system/lib/libvss_resim_iface.so \
+    $(FILES_PATH)/lib/libwvoemprov.so:system/lib/libwvoemprov.so \
+    $(FILES_PATH)/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
+    $(FILES_PATH)/lib/hw/camera.apq8084.so:system/lib/hw/camera.apq8084.so \
+    $(FILES_PATH)/lib/hw/consumerir.apq8084.so:system/lib/hw/consumerir.apq8084.so \
+    $(FILES_PATH)/lib/hw/gps.apq8084.so:system/lib/hw/gps.apq8084.so \
+    $(FILES_PATH)/priv-app/qcrilmsgtunnel:system/priv-app/qcrilmsgtunnel \
+    $(FILES_PATH)/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
+    $(FILES_PATH)/vendor/bin:system/vendor/bin \
+    $(FILES_PATH)/vendor/etc:system/vendor/etc \
+    $(FILES_PATH)/vendor/firmware:system/vendor/firmware \
+    $(FILES_PATH)/vendor/lib:system/vendor/lib \
+    $(FILES_PATH)/vendor/media:system/vendor/media \
     $(FILES_PATH)/vendor/bin/qti:system/vendor/bin/qti \
     $(FILES_PATH)/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
     $(FILES_PATH)/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     $(FILES_PATH)/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
+    $(FILES_PATH)/vendor/etc/chargerimages:system/vendor/etc/chargerimages \
     $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_01.png:system/vendor/etc/chargerimages/battery_charging_01.png \
     $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_02.png:system/vendor/etc/chargerimages/battery_charging_02.png \
     $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_03.png:system/vendor/etc/chargerimages/battery_charging_03.png \
@@ -182,6 +222,8 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/vendor/firmware/BCM4354_003.001.012.0197.0000_LGE_Tiger_6_TEST_ONLY.hcd:system/vendor/firmware/BCM4354_003.001.012.0197.0000_LGE_Tiger_6_TEST_ONLY.hcd \
     $(FILES_PATH)/vendor/firmware/BCM4354A2_001.003.015.0044.0054_LGE_Tiger_6_BT41_ORC.hcd:system/vendor/firmware/BCM4354A2_001.003.015.0044.0054_LGE_Tiger_6_BT41_ORC.hcd \
     $(FILES_PATH)/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
+    $(FILES_PATH)/vendor/lib/egl:system/vendor/lib/egl \
+    $(FILES_PATH)/vendor/lib/hw:system/vendor/lib/hw \
     $(FILES_PATH)/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     $(FILES_PATH)/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     $(FILES_PATH)/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -469,6 +511,8 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     $(FILES_PATH)/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     $(FILES_PATH)/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
+    $(FILES_PATH)/vendor/lib/mediadrm:system/vendor/lib/mediadrm \
+    $(FILES_PATH)/vendor/lib/soundfx:system/vendor/lib/soundfx \
     $(FILES_PATH)/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     $(FILES_PATH)/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     $(FILES_PATH)/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -483,4 +527,6 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     $(FILES_PATH)/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     $(FILES_PATH)/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    $(FILES_PATH)/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
+    $(FILES_PATH)/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    $(FILES_PATH)/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
+    $(FILES_PATH)/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
