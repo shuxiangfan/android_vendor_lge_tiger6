@@ -33,13 +33,8 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/bin/smpl_count:system/bin/smpl_count \
     $(FILES_PATH)/bin/time_daemon:system/bin/time_daemon \
     $(FILES_PATH)/bin/wififtmd:system/bin/wififtmd \
-    $(FILES_PATH)/etc/acdbdata:system/etc/acdbdata \
-    $(FILES_PATH)/etc/bluetooth:system/etc/bluetooth \
     $(FILES_PATH)/etc/camera_config.xml:system/etc/camera_config.xml \
     $(FILES_PATH)/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
-    $(FILES_PATH)/etc/firmware:system/etc/firmware \
-    $(FILES_PATH)/etc/lgodm:system/etc/lgodm \
-    $(FILES_PATH)/etc/permissions:system/etc/permissions \
     $(FILES_PATH)/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     $(FILES_PATH)/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
     $(FILES_PATH)/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
@@ -100,15 +95,12 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt \
     $(FILES_PATH)/etc/lgodm/gps.cfg:system/etc/lgodm/gps.cfg \
     $(FILES_PATH)/etc/lgodm/gps_sap_pdr.cfg:system/etc/lgodm/gps_sap_pdr.cfg \
-    $(FILES_PATH)/etc/permissions/android.hardware.consumerir.xml:system/etc/permissions/android.hardware.consumerir.xml \
     $(FILES_PATH)/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     $(FILES_PATH)/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     $(FILES_PATH)/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     $(FILES_PATH)/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     $(FILES_PATH)/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     $(FILES_PATH)/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    $(FILES_PATH)/lib/drm:system/lib/drm \
-    $(FILES_PATH)/lib/hw:system/lib/hw \
     $(FILES_PATH)/lib/liballegro.so:system/lib/liballegro.so \
     $(FILES_PATH)/lib/libalmalib.so:system/lib/libalmalib.so \
     $(FILES_PATH)/lib/libatd_common.so:system/lib/libatd_common.so \
@@ -167,11 +159,6 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/lib/hw/gps.apq8084.so:system/lib/hw/gps.apq8084.so \
     $(FILES_PATH)/priv-app/qcrilmsgtunnel:system/priv-app/qcrilmsgtunnel \
     $(FILES_PATH)/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
-    $(FILES_PATH)/vendor/bin:system/vendor/bin \
-    $(FILES_PATH)/vendor/etc:system/vendor/etc \
-    $(FILES_PATH)/vendor/firmware:system/vendor/firmware \
-    $(FILES_PATH)/vendor/lib:system/vendor/lib \
-    $(FILES_PATH)/vendor/media:system/vendor/media \
     $(FILES_PATH)/vendor/bin/qti:system/vendor/bin/qti \
     $(FILES_PATH)/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
     $(FILES_PATH)/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
@@ -222,8 +209,6 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/vendor/firmware/BCM4354_003.001.012.0197.0000_LGE_Tiger_6_TEST_ONLY.hcd:system/vendor/firmware/BCM4354_003.001.012.0197.0000_LGE_Tiger_6_TEST_ONLY.hcd \
     $(FILES_PATH)/vendor/firmware/BCM4354A2_001.003.015.0044.0054_LGE_Tiger_6_BT41_ORC.hcd:system/vendor/firmware/BCM4354A2_001.003.015.0044.0054_LGE_Tiger_6_BT41_ORC.hcd \
     $(FILES_PATH)/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
-    $(FILES_PATH)/vendor/lib/egl:system/vendor/lib/egl \
-    $(FILES_PATH)/vendor/lib/hw:system/vendor/lib/hw \
     $(FILES_PATH)/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     $(FILES_PATH)/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     $(FILES_PATH)/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -511,8 +496,6 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     $(FILES_PATH)/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     $(FILES_PATH)/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
-    $(FILES_PATH)/vendor/lib/mediadrm:system/vendor/lib/mediadrm \
-    $(FILES_PATH)/vendor/lib/soundfx:system/vendor/lib/soundfx \
     $(FILES_PATH)/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     $(FILES_PATH)/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     $(FILES_PATH)/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
