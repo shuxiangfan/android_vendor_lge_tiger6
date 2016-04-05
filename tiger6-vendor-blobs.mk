@@ -245,6 +245,7 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     $(FILES_PATH)/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     $(FILES_PATH)/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
+    $(FILES_PATH)/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     $(FILES_PATH)/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     $(FILES_PATH)/vendor/lib/libchromatix_imx135_120fps_cpp.so:system/vendor/lib/libchromatix_imx135_120fps_cpp.so \
     $(FILES_PATH)/vendor/lib/libchromatix_imx135_30fps_common.so:system/vendor/lib/libchromatix_imx135_30fps_common.so \
