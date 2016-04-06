@@ -162,48 +162,6 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/vendor/bin/qti:system/vendor/bin/qti \
     $(FILES_PATH)/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
     $(FILES_PATH)/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    $(FILES_PATH)/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
-    $(FILES_PATH)/vendor/etc/chargerimages:system/vendor/etc/chargerimages \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_01.png:system/vendor/etc/chargerimages/battery_charging_01.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_02.png:system/vendor/etc/chargerimages/battery_charging_02.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_03.png:system/vendor/etc/chargerimages/battery_charging_03.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_04.png:system/vendor/etc/chargerimages/battery_charging_04.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_05.png:system/vendor/etc/chargerimages/battery_charging_05.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_06.png:system/vendor/etc/chargerimages/battery_charging_06.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_07.png:system/vendor/etc/chargerimages/battery_charging_07.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_08.png:system/vendor/etc/chargerimages/battery_charging_08.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_ani_01.png:system/vendor/etc/chargerimages/battery_charging_ani_01.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_ani_02.png:system/vendor/etc/chargerimages/battery_charging_ani_02.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_bg.png:system/vendor/etc/chargerimages/battery_charging_bg.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_complete.png:system/vendor/etc/chargerimages/battery_charging_complete.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_dummy.png:system/vendor/etc/chargerimages/battery_charging_dummy.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_insert.png:system/vendor/etc/chargerimages/battery_charging_insert.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_warning_1_00.png:system/vendor/etc/chargerimages/battery_charging_warning_1_00.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_warning_1_01.png:system/vendor/etc/chargerimages/battery_charging_warning_1_01.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_warning_1_02.png:system/vendor/etc/chargerimages/battery_charging_warning_1_02.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_warning_1_03.png:system/vendor/etc/chargerimages/battery_charging_warning_1_03.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_warning_1_04.png:system/vendor/etc/chargerimages/battery_charging_warning_1_04.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_warning_1_05.png:system/vendor/etc/chargerimages/battery_charging_warning_1_05.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_warning_1_06.png:system/vendor/etc/chargerimages/battery_charging_warning_1_06.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_warning_1_07.png:system/vendor/etc/chargerimages/battery_charging_warning_1_07.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_warning_1_08.png:system/vendor/etc/chargerimages/battery_charging_warning_1_08.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_warning_blink.png:system/vendor/etc/chargerimages/battery_charging_warning_blink.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_charging_warning.png:system/vendor/etc/chargerimages/battery_charging_warning.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_invalid_01.png:system/vendor/etc/chargerimages/battery_invalid_01.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_invalid_02.png:system/vendor/etc/chargerimages/battery_invalid_02.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_percent_0.png:system/vendor/etc/chargerimages/battery_percent_0.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_percent_1.png:system/vendor/etc/chargerimages/battery_percent_1.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_percent_2.png:system/vendor/etc/chargerimages/battery_percent_2.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_percent_3.png:system/vendor/etc/chargerimages/battery_percent_3.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_percent_4.png:system/vendor/etc/chargerimages/battery_percent_4.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_percent_5.png:system/vendor/etc/chargerimages/battery_percent_5.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_percent_6.png:system/vendor/etc/chargerimages/battery_percent_6.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_percent_7.png:system/vendor/etc/chargerimages/battery_percent_7.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_percent_8.png:system/vendor/etc/chargerimages/battery_percent_8.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_percent_9.png:system/vendor/etc/chargerimages/battery_percent_9.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/battery_percent.png:system/vendor/etc/chargerimages/battery_percent.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/black_bg.png:system/vendor/etc/chargerimages/black_bg.png \
-    $(FILES_PATH)/vendor/etc/chargerimages/chargerlogo.ini:system/vendor/etc/chargerimages/chargerlogo.ini \
     $(FILES_PATH)/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
     $(FILES_PATH)/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
     $(FILES_PATH)/vendor/firmware/BCM4354_003.001.012.0197.0000_LGE_Tiger_6_TEST_ONLY.hcd:system/vendor/firmware/BCM4354_003.001.012.0197.0000_LGE_Tiger_6_TEST_ONLY.hcd \
