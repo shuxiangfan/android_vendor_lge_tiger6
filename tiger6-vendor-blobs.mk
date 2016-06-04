@@ -4,7 +4,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff 
 
 PRODUCT_COPY_FILES += \
-    $(FILES_PATH)/bin/adsprpcd:system/bin/adsprpcd \
     $(FILES_PATH)/bin/atd:system/bin/atd \
     $(FILES_PATH)/bin/brcm-uim-sysfs:system/bin/brcm-uim-sysfs \
     $(FILES_PATH)/bin/cpfirmware:system/bin/cpfirmware \
