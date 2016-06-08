@@ -7,12 +7,7 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/bin/atd:system/bin/atd \
     $(FILES_PATH)/bin/brcm-uim-sysfs:system/bin/brcm-uim-sysfs \
     $(FILES_PATH)/bin/cpfirmware:system/bin/cpfirmware \
-    $(FILES_PATH)/bin/dun-server:system/bin/dun-server \
     $(FILES_PATH)/bin/efsks:system/bin/efsks \
-    $(FILES_PATH)/bin/ftmdaemon:system/bin/ftmdaemon \
-    $(FILES_PATH)/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    $(FILES_PATH)/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    $(FILES_PATH)/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     $(FILES_PATH)/bin/irsc_util:system/bin/irsc_util \
     $(FILES_PATH)/bin/ks:system/bin/ks \
     $(FILES_PATH)/bin/mdm_helper:system/bin/mdm_helper \
