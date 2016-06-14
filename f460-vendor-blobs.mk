@@ -1,9 +1,8 @@
 FILES_PATH := vendor/lge/f460/proprietary
 
-PRODUCT_PACKAGES += \
-    libtime_genoff 
-
 PRODUCT_COPY_FILES += \
+    $(FILES_PATH)/app/shutdownlistener/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk \
+    $(FILES_PATH)/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
     $(FILES_PATH)/bin/atd:system/bin/atd \
     $(FILES_PATH)/bin/brcm-uim-sysfs:system/bin/brcm-uim-sysfs \
     $(FILES_PATH)/bin/cpfirmware:system/bin/cpfirmware \
@@ -22,7 +21,6 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/bin/qmuxd:system/bin/qmuxd \
     $(FILES_PATH)/bin/qseecomd:system/bin/qseecomd \
     $(FILES_PATH)/bin/radish:system/bin/radish \
-    $(FILES_PATH)/bin/rmnetcli:system/bin/rmnetcli \
     $(FILES_PATH)/bin/sensors.qcom:system/bin/sensors.qcom \
     $(FILES_PATH)/bin/smpl_count:system/bin/smpl_count \
     $(FILES_PATH)/bin/time_daemon:system/bin/time_daemon \
@@ -151,7 +149,6 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/lib/hw/camera.apq8084.so:system/lib/hw/camera.apq8084.so \
     $(FILES_PATH)/lib/hw/consumerir.apq8084.so:system/lib/hw/consumerir.apq8084.so \
     $(FILES_PATH)/lib/hw/gps.apq8084.so:system/lib/hw/gps.apq8084.so \
-    $(FILES_PATH)/priv-app/qcrilmsgtunnel:system/priv-app/qcrilmsgtunnel \
     $(FILES_PATH)/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
     $(FILES_PATH)/vendor/bin/qti:system/vendor/bin/qti \
     $(FILES_PATH)/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
