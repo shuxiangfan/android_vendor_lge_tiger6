@@ -146,6 +146,7 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/lib/libvss_resim_iface.so:system/lib/libvss_resim_iface.so \
     $(FILES_PATH)/lib/libwvoemprov.so:system/lib/libwvoemprov.so \
     $(FILES_PATH)/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
+    $(FILES_PATH)/lib/hw/audio.primary.apq8084.so:system/lib/hw/audio.primary.apq8084.so \
     $(FILES_PATH)/lib/hw/camera.apq8084.so:system/lib/hw/camera.apq8084.so \
     $(FILES_PATH)/lib/hw/consumerir.apq8084.so:system/lib/hw/consumerir.apq8084.so \
     $(FILES_PATH)/lib/hw/gps.apq8084.so:system/lib/hw/gps.apq8084.so \
