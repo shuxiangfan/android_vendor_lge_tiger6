@@ -448,6 +448,7 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     $(FILES_PATH)/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     $(FILES_PATH)/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
+    $(FILES_PATH)/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     $(FILES_PATH)/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     $(FILES_PATH)/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     $(FILES_PATH)/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -458,7 +459,6 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/vendor/lib/hw/activity_recognition.apq8084.so:system/vendor/lib/hw/activity_recognition.apq8084.so \
     $(FILES_PATH)/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     $(FILES_PATH)/vendor/lib/hw/sensors.apq8084.so:system/vendor/lib/hw/sensors.apq8084.so \
-    $(FILES_PATH)/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     $(FILES_PATH)/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     $(FILES_PATH)/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     $(FILES_PATH)/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
