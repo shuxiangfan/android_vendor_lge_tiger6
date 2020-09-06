@@ -192,6 +192,7 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
     $(FILES_PATH)/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     $(FILES_PATH)/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    $(FILES_PATH)/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     $(FILES_PATH)/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     $(FILES_PATH)/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     $(FILES_PATH)/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
@@ -448,12 +449,12 @@ PRODUCT_COPY_FILES += \
     $(FILES_PATH)/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     $(FILES_PATH)/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     $(FILES_PATH)/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
+    $(FILES_PATH)/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     $(FILES_PATH)/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     $(FILES_PATH)/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     $(FILES_PATH)/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     $(FILES_PATH)/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     $(FILES_PATH)/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
-    $(FILES_PATH)/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     $(FILES_PATH)/vendor/lib/hw/activity_recognition.apq8084.so:system/vendor/lib/hw/activity_recognition.apq8084.so \
     $(FILES_PATH)/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     $(FILES_PATH)/vendor/lib/hw/sensors.apq8084.so:system/vendor/lib/hw/sensors.apq8084.so \
