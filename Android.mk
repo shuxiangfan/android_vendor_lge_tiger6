@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(BOARD_VENDOR),lge)
-ifneq ($(filter f460,$(TARGET_DEVICE)),)
+ifneq ($(filter tiger6,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := shutdownlistener

@@ -11,5 +11,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtime_genoff 
 
-$(call inherit-product, vendor/lge/f460/f460-vendor-blobs.mk)
+$(call inherit-product, vendor/lge/tiger6/tiger6-vendor-blobs.mk)
 

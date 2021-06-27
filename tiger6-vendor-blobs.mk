@@ -1,4 +1,4 @@
-FILES_PATH := vendor/lge/f460/proprietary
+FILES_PATH := vendor/lge/tiger6/proprietary
 
 PRODUCT_COPY_FILES += \
     $(FILES_PATH)/app/shutdownlistener/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk \
