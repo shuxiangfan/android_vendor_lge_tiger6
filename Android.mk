@@ -1,5 +1,3 @@
-LOCAL_PATH := $(call my-dir)
-
 ifeq ($(BOARD_VENDOR),lge)
 ifneq ($(filter f460,$(TARGET_DEVICE)),)
 
